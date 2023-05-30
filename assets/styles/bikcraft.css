@@ -49,7 +49,7 @@ body {
     box-sizing: border-box;
     margin: none;
     padding: none;
-    background: linear-gradient(var(--cor-10) 250px, var(--cor-1) 0px);
+    background: linear-gradient(var(--cor-10) 280px, var(--cor-1) 0px);
 
 }
 
@@ -137,6 +137,7 @@ p {
     display: flex !important;
     width: 100vw !important;
     background-color: var(--color-12);
+    
    
 }
 
@@ -145,7 +146,9 @@ p {
     justify-content: space-between;
     max-width: 100vw !important;
     margin-right: none;
+    
 }
+
 
 
 header {
@@ -234,6 +237,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+    
 }
 
 .col-6 {
@@ -265,10 +269,12 @@ a {
 
 .containerTitle {
     display: block !important; 
-     box-sizing: border-box;
-    padding: 0 0vw;
-    margin-left: 30px !important;
-   
+
+    margin: 24px 0px 0px 0px !important;
+    font-size: 1.3rem;
+
+
+
 }
 
 
@@ -278,7 +284,7 @@ a {
 
     padding: 2vh 0;
     color: var(--cor-5);
-    font-weight: bold;
+    font-weight: none;
     
   
 }
@@ -286,7 +292,6 @@ a {
 .titulo p {
     margin-bottom: 4px;
 }
-
 
 
 .contato-container {
@@ -503,6 +508,7 @@ label {
 
 .titulo2{
     margin: 20px;
+    
 }
 
 .lojas {
@@ -701,9 +707,10 @@ address {
     display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 60px;
     justify-content: column;
+    
 
 /*     display: flex;
     align-items: center;
@@ -713,12 +720,7 @@ address {
  */
 }
 
-.desc {
 
-
- /*    justify-content: space-between; */
-/*  border: solid 1px red;  */
-}
 
 .images-products {
     display: flex;
@@ -743,12 +745,12 @@ img.bike {
     position: absolute;
     justify-content: center;  
     align-items: center;  
-    width: 60px;
-    height: 25px;
+    width: 80px;
+    height: 37px;
     background-color: var(--black);
     color: var(--text1);
     margin-top: 20px;
-    margin-left: 335px;
+    margin-left: 500px;
     border-radius: 4px;
     color: var(--text-1);
     font-size: 13px;
