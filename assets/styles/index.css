@@ -147,3 +147,10 @@ a:hover::after {
     border-radius: 5px;
 
 }
+
+.index {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 25% 0 0 40% !important;
+}
