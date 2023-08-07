@@ -21,3 +21,22 @@ const bicicletas = [
         
     }
     
+
+    function trocarCorAtiva() {
+        const body = document.body;
+        const isBtnTheme = body.classList.contains('btntema');
+        
+        body.classList.toggle('btntema', !isBtnTheme );
+        console.log(body)
+    }
+
+    /*     function trocarCorAtiva() {
+        
+            const elementosAmarelos = document.querySelectorAll('[style*="background-color: var(--btn-background-color-1)"]');
+            
+        
+            elementosAmarelos.forEach(elemento => {
+                elemento.style.backgroundColor = '#06bc37';
+            });
+        } */
+    

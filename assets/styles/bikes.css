@@ -4,6 +4,12 @@
     box-sizing: border-box;
     margin: none;
     padding: none;
-    /* background: linear-gradient(var(--cor-10) 600px, var(--cor-1) 0px); */
+    background: linear-gradient(var(--cor-10) 600px, var(--cor-1) 0px);
     background-color: white;
+}
+
+.btn-change {
+    width: 5vw;
+    border: white;
+    
 }
